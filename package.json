@@ -1,6 +1,6 @@
 {
   "name": "gstin-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight, zero-dependency utility package for Indian GSTIN validation, parsing, normalization, masking, and metadata extraction.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -36,12 +36,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dheeraj0808/gstin-validator"
+    "url": "https://github.com/dheeraj0808/gstin-utils"
   },
   "bugs": {
-    "url": "https://github.com/dheeraj0808/gstin-validator/issues"
+    "url": "https://github.com/dheeraj0808/gstin-utils/issues"
   },
-  "homepage": "https://github.com/dheeraj0808/gstin-validator#readme",
+  "homepage": "https://github.com/dheeraj0808/gstin-utils#readme",
   "engines": {
     "node": ">=14.0.0"
   },
