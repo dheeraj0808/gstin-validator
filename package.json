@@ -1,0 +1,54 @@
+{
+  "name": "gstin-utils",
+  "version": "1.0.0",
+  "description": "A lightweight, zero-dependency utility package for Indian GSTIN validation, parsing, normalization, masking, and metadata extraction.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "prepublishOnly": "npm run build && npm test",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "gstin",
+    "gst",
+    "india",
+    "tax",
+    "validation",
+    "parser",
+    "fintech",
+    "invoice",
+    "erp",
+    "pan",
+    "state-code",
+    "checksum",
+    "masking",
+    "utility"
+  ],
+  "author": "Dheeraj Singh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dheeraj0808/gstin-validator"
+  },
+  "bugs": {
+    "url": "https://github.com/dheeraj0808/gstin-validator/issues"
+  },
+  "homepage": "https://github.com/ujjwalpratap/gstin-utils#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.5"
+  }
+}
