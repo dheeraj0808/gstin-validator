@@ -41,7 +41,7 @@
   "bugs": {
     "url": "https://github.com/dheeraj0808/gstin-validator/issues"
   },
-  "homepage": "https://github.com/ujjwalpratap/gstin-utils#readme",
+  "homepage": "https://github.com/dheeraj0808/gstin-validator#readme",
   "engines": {
     "node": ">=14.0.0"
   },
